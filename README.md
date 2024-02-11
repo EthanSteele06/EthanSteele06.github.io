@@ -1,1 +1,1 @@
-# EthanSteele06.github.io
+Thank you for checking out my website! - Ethan Steele
