@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <h1> Application Form</h1>
+
+    <!--This is definetly the page I'm proudest of, as all of the form works, and is all saved into the "infosaved.txt" file!-->
+
+    <h2> Thank you for your interest in Dionysia Hotel! Below, you will find our application form.</h2>
+    <h2> If you have any questions, please email us at <a href= "mailto: dionysiahotel@gmail.com"> dionysiahotel@gmail.com</a>. </h2>
+
+
+    <form >
+      <label for="fname">First name:</label><br>
+      <input id="names" type="text" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input id = "names" type="text" name="lname">
+    </form>
+    <br>
+    
+<form action="infosaved.txt">
+    <label>Select the job you are applying for:</label>
+    <select>
+      <option value="none">Select Job...</option>
+      <option value="ahm">Assistant Hotel Manager</option>
+      <option value="hskeep">Hotel Housekeeper</option>
+      <option value="hchef">Hotel Chef</option>
+    </select>
+    <br><br>
+  </form>
+
+<form action="infosaved.txt">
+    <label>Please all skills that apply to you:</label>
+    <br>
+        <input type="checkbox" name="english" value="1">
+        <label for="skills1"> I can read, write, and speak fluent English. </label><br>
+        <input type="checkbox" name="french" value="2">
+        <label for="skills2"> I can read, write and speak fluent French.</label><br>
+        <input type="checkbox" name="skill3" value="3">
+        <label for="skills3"> I am legally able to work in France.</label><br>
+        <input type="checkbox" name="skill4" value="4">
+        <label for="skills4"> I have worked in the Hotel Industry before.</label><br>
+      </form>
+<br><br><br>
+<form action="infosaved.txt">
+  <textarea id="bigbox" name="message" rows="10" cols="30">
+    Use this area to write a resume, list references, and tell us why you want to work with us at Dionysia! When finished, hit the "Submit" button below this form. 
+    </textarea>
+
+</form>
+
+<button id = "button" onclick="window.location.href = 'final.html'">Submit</button>
+
+</body>
+</html>
